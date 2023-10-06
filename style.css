@@ -51,6 +51,7 @@ body{
 .code-editor-container .left, .code-editor-container .right{
     flex-basis: 50%;
     padding: 10px;
+   
 }
 .code-editor-container .left textarea{
     width: 100%;
@@ -64,10 +65,13 @@ body{
 }
 
 .code-editor-container .left .textarea-first-child, .fa-html5{
-    color: #5f95fa;
+    color: #e22b0b;
 }
 .code-editor-container .left .textarea-last-child, .fa-js{
-    color: #5ffa6c;
+    color: #ffee02;
+}
+.code-editor-container .left .textarea-last-child, .fa-css3-alt{
+    color: #00d6fc;
 }
 #codeEditorOutput{
     width: 100%;
@@ -81,6 +85,7 @@ body{
     background: #000;
     align-items: center;
     height: 30px;
+    width: 100%;
 }
 .code-editor-container div label i{
     margin-right: 10px;
